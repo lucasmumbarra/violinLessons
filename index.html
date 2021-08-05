@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayane Marques | Aulas</title>
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,35 +18,39 @@
 <body>
     <main>
         <section>
+            <div class="titlePage">
+                <h1>Rayane Marques</h1>
+                <h2>Aulas de Violino</h2>
+            </div>
             <div class="forms">
-                <form class="inscription" action="">
+                <form class="inscription" action="https://docs.google.com/forms/d/e/1FAIpQLSfO9cb1tj5GBuw4oHOq6AECX7GLIWEdEVEqdx1oTR8P3Va8ag/formResponse">
                     <h1 class="title">Venha estudar Violino</h1>
                     <h2 class="subtitle">Inscreva-se e realize o seu sonho!</h2>
                     <fieldset>
-                        <input placeholder="Nome Completo" type="text" name="" id="nome">
+                        <input placeholder="Nome Completo" type="text" name="entry.999871970" id="nome">
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Idade" type="text" name="" id="idade">
+                        <input placeholder="Idade" type="text" name="entry.1238665966" id="idade">
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Whatsapp" type="text" name="" id="whatsapp">
+                        <input placeholder="Whatsapp" type="text" name="entry.2069067463" id="whatsapp">
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Endereço Completo" type="text" name="" id="endereco">
+                        <input placeholder="Endereço Completo" type="text" name="entry.1135435788" id="endereco">
                     </fieldset>
                     <fieldset class="level">
                         <h3>Nível Musical</h3>
                         <div id="level">
                             <div>
-                                <input type="checkbox" name="" id="iniciante">
+                                <input type="checkbox" name="entry.862956056" id="iniciante" value="Iniciante">
                                 <p>Iniciante</p>
                             </div>
                             <div>
-                                <input type="checkbox" name="" id="basico">
+                                <input type="checkbox" name="entry.862956056" id="basico" value="Basico">
                                 <p>Básico</p>
                             </div>
                             <div>
-                                <input type="checkbox" name="" id="intermediario">
+                                <input type="checkbox" name="entry.862956056" id="intermediario" value="Intermediario">
                                 <p>Intermediário</p>
                             </div>
                         </div>
@@ -51,11 +59,11 @@
                         <h3>Período de Aula</h3>
                         <div id="period">
                             <div>
-                                <input type="checkbox" name="" id="manha">
+                                <input type="checkbox" name="entry.1457333916" id="manha" value="Manhã">
                                 <p>Manhã</p>
                             </div>
                             <div>
-                                <input type="checkbox" name="" id="tarde">
+                                <input type="checkbox" name="entry.1457333916" id="tarde" Value="Tarde">
                                 <p>Tarde</p>
                             </div>
                         </div>
@@ -67,6 +75,9 @@
                 </form>
             </div>
         </section>
+        <script type="text/javascript">
+            $("#whatsapp").mask("(00) 00000-0000")
+        </script>
     </main>
 </body>
 </html>
