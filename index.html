@@ -9,10 +9,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-    <script src="/function.js"></script>
+    <script src="./javascript/function.js"></script>
+    <script src="./services/api/api.js"></script>
 
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -28,48 +28,64 @@
                 <form class="inscription" action="https://docs.google.com/forms/d/e/1FAIpQLSfO9cb1tj5GBuw4oHOq6AECX7GLIWEdEVEqdx1oTR8P3Va8ag/formResponse">
                     <h1 class="title">Venha estudar Violino</h1>
                     <h2 class="subtitle">Inscreva-se e realize o seu sonho!</h2>
+
                     <fieldset>
-                        <input placeholder="Nome Completo" type="text" name="entry.999871970" id="nome">
+                        <input placeholder="Nome Completo" type="text" name="entry.999871970" autocomplete="off" id="nome">
                     </fieldset>
+
                     <fieldset>
-                        <input placeholder="Idade" type="text" name="entry.1238665966" id="idade">
+                        <input placeholder="Idade" type="text" name="entry.1238665966" autocomplete="off" id="idade">
                     </fieldset>
+
                     <fieldset>
-                        <input placeholder="Whatsapp" type="text" name="entry.2069067463" id="whatsapp">
+                        <input placeholder="Whatsapp" type="text" name="entry.2069067463" autocomplete="off" id="whatsapp">
                     </fieldset>
+
                     <fieldset>
-                        <input placeholder="Endereço Completo" type="text" name="entry.1135435788" id="endereco">
+                        <input placeholder="Dígite seu CEP" type="text" name="" autocomplete="off" id="cep" disabled="disabled">
                     </fieldset>
+
+                    <fieldset>
+                        <input placeholder="Endereço Completo" type="text" name="entry.1135435788" autocomplete="off" id="endereco">
+                    </fieldset>
+
                     <fieldset class="level">
                         <h3>Nível Musical</h3>
+
                         <div id="level">
                             <div>
-                                <input type="checkbox" name="entry.862956056" id="iniciante" value="Iniciante">
+                                <input type="checkbox" name="entry.862956056" id="iniciante" autocomplete="off" value="Iniciante">
                                 <p>Iniciante</p>
                             </div>
+
                             <div>
-                                <input type="checkbox" name="entry.862956056" id="basico" value="Basico">
+                                <input type="checkbox" name="entry.862956056" id="basico" autocomplete="off" value="Basico">
                                 <p>Básico</p>
                             </div>
+                            
                             <div>
-                                <input type="checkbox" name="entry.862956056" id="intermediario" value="Intermediario">
+                                <input type="checkbox" name="entry.862956056" id="intermediario" autocomplete="off" value="Intermediario">
                                 <p>Intermediário</p>
                             </div>
                         </div>
                     </fieldset>
+
                     <fieldset class="period">
                         <h3>Período de Aula</h3>
+
                         <div id="period">
                             <div>
-                                <input type="checkbox" name="entry.1457333916" id="manha" value="Manhã">
+                                <input type="checkbox" name="entry.1457333916" id="manha" autocomplete="off" value="Manhã">
                                 <p>Manhã</p>
                             </div>
+
                             <div>
-                                <input type="checkbox" name="entry.1457333916" id="tarde" Value="Tarde">
+                                <input type="checkbox" name="entry.1457333916" id="tarde" autocomplete="off" Value="Tarde">
                                 <p>Tarde</p>
                             </div>
                         </div>
                     </fieldset>
+
                     <fieldset>
                         <input type="submit" value="INSCREVER-SE" id="inscrevaSe">
                     </fieldset>
