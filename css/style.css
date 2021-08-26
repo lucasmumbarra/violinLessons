@@ -119,6 +119,12 @@ fieldset {
     display: none;
 }
 
+/* #endereco {
+    height: 70px;
+    word-wrap: break-word;
+    word-break: break-all;
+} */
+
 #level,
 #period {
     display: flex;

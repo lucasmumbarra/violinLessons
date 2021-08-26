@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayane Marques | Aulas</title>
-    <!-- <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon"> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
@@ -42,7 +41,7 @@
                     </fieldset>
 
                     <fieldset>
-                        <input placeholder="Dígite seu CEP" type="text" name="" autocomplete="off" id="cep" disabled="disabled">
+                        <input placeholder="Dígite seu CEP" type="text" name="cep" autocomplete="off" id="cep" size="10" maxlength="9" onblur="pesquisacep(this.value);">
                     </fieldset>
 
                     <fieldset>
