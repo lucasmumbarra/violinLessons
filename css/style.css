@@ -35,23 +35,6 @@ h3 {
     margin-bottom: 0.625rem;
 }
 
-.titlePage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.875rem;
-}
-
-.titlePage h1 {
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-}
-
-.titlePage h2 {
-    font-size: 2rem;
-    color: rgb(202, 202, 202);
-}
-
 .forms {
     max-width: 25rem;
     width: 100%;
@@ -62,6 +45,7 @@ h3 {
 #nome,
 #idade,
 #whatsapp,
+#cep,
 #endereco {
     font: 400 0.75rem/1rem "DM Sans";
 }
@@ -119,11 +103,11 @@ fieldset {
     display: none;
 }
 
-/* #endereco {
-    height: 70px;
+#endereco {
+    height: 40px;
     word-wrap: break-word;
     word-break: break-all;
-} */
+}
 
 #level,
 #period {

@@ -25,7 +25,7 @@ function pesquisacep(valor) {
 
 function meu_callback(conteudo) {
     if (!("erro" in conteudo)) {
-        document.getElementById('endereco').value=(conteudo.logradouro + conteudo.cep + conteudo.bairro + conteudo.localidade + conteudo.uf)
+        document.getElementById('endereco').value=(conteudo.logradouro + ", " + conteudo.cep + ", " + conteudo.bairro + ", " + conteudo.localidade + "/" + conteudo.uf)
     }
 }
 
