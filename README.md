@@ -1,5 +1,5 @@
 # Aulas de Violino
-Site Rayane Marques - Aulas de Violino
+Site - Aulas de Violino
 
 ## Descrição
 Site criado para fazer a captura de dados para o Google Forms.
